@@ -2,7 +2,7 @@ package m4constructors.pizzaexample;
 
 class Pizza {
 
-    static class Builder {
+    static class Builder { // spring anotion @Builder
         //mandatory
         private final int size;
 
