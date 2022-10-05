@@ -7,7 +7,7 @@ public class MethodWithTooManyArguments2 {
 
         String greeting = new EmailSender().constructTemplateEmail("Mr.", "John", "Smith");
 
-        Person john = new Person("Mr.", "John", "Smith");
+        Person john = new Person("Mr.", "John", "Smith"); // constructor with too many arguments change to one object
         String greeting2 = new EmailSender().constructTemplateEmail(john);
 
         System.out.println(greeting);
