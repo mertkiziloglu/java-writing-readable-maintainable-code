@@ -20,4 +20,9 @@ public class JavaDoc {
         // ...
         return null;
     }
+
+    /**
+     * yaptıgımız işlemleri anlatan bir açıklama yazıyoruz
+     * @return donus degeri
+     */
 }
