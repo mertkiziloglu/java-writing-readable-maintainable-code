@@ -9,6 +9,9 @@ import static org.junit.Assert.assertEquals;
 public class TestExamples {
 
     // test that verifies too many things
+    // morocco junit test
+    //one test should test one thing
+    //first test after refactoring
     @Test
     public void basicMathTest() {
 
